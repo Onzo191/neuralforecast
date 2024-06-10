@@ -30,7 +30,7 @@ from torch.utils.data import DataLoader
 
 import logging
 import pytorch_lightning as pl
-pl.utilities.distributed.log.setLevel(logging.ERROR)
+#pl.utilities.distributed.log.setLevel(logging.ERROR)
 
 from hyperopt import fmin, tpe, hp, Trials, STATUS_OK
 
